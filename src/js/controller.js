@@ -141,6 +141,6 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResult);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddrecipe);
-  newWelcome();
+  newWelcome;
 };
 init();
